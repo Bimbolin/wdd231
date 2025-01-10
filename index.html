@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 231 - Web Frontend Development I - Home page for Bimbola Osholowu">
+    <meta name="author" content="Bimbola Osholowu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>WDD 231 - Web Frontend Development I - Home Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img src="images/profile_img.webp" alt="Picture of Bimbola" width="100" hight="auto" loading="lazy">
+            <h1>Bimbola Osholowu</h1>
+            <div class="hamburger-menu">&#9776;</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="https://github.com/Bimbolin">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/bimbola22">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Course Work</h2>
+            <div class="course-work">
+                <ul>
+                    <li><a href="#"></a>Introduction to Programming</li>
+                    <li><a href="#"></a>Data Structures and Algorithms</li>
+                    <li><a href="#"></a>Database Management</li>
+                    <li><a href="#"></a>Python</li>
+                    <li><a href="#"></a>Software Engineering</li>
+                    <li><a href="#"></a>Cloud Computing</li>
+                </ul>
+            </div>
+        </section>
+        <section class="card">
+            <h2>Rivers State, Nigeria</h2>
+            <div class="country">
+                <div class="country">
+            <<picture>
+                <source srcset="images/aba-nigeria-temple-small.webp" media="(max-width: 600px)">
+                <source srcset="images/aba-nigeria-temple.webp" media="(max-width: 1200px)">
+                <img src="images/aba-nigeria-temple.webp" alt="Picture of Nigeria Aba Temple" width="350" loading="lazy">
+            </picture>
+            <p>Nigeria Aba Temple</p>
+        </div>
+    </div>
+        </section>
+        <section class="programs-card">
+            <section class="card">
+                <h2>Web & Computer Programming Certificate</h2>
+                <div class="all-courses"></div>
+                <ul>
+                    <li id="all-courses"><a href="#" target="_blank">All Courses</a></li>
+                    <li id="cse-courses"><a href="#" target="_blank">CSE Courses</a></li>
+                    <li id="wdd-courses"><a href="#" target="_blank">WDD Courses</a></li>
+                </ul>
+                <div class="course">
+                    <ul id="course-list">
+                        <!-- Course items will be dynamically added here -->
+                    </ul>
+                    <div class="total-credits">Total Credits: 0</div>
+                </div> 
+                </section>
+        </section>    
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Bimbola Osho-Lowu, Nigeria.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+
