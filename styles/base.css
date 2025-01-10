@@ -319,7 +319,7 @@
     
 
     
-    section.programs-card {
+    div.programs-card {
         grid-area: programs-card;
         grid-column: 1 / 3;
         width: 100%;
