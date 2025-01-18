@@ -1,0 +1,65 @@
+[
+    {
+        "name": "ABC Boutique",
+        "address": "123 Market St, Port-Harcourt",
+        "phone": "(555) 123-4567",
+        "website": "http://www.abcboutique.com",
+        "image": "abc-boutique.jpg",
+        "membershipLevel": 3,
+        "description": "A trendy boutique offering the latest in fashion."
+    },
+    {
+        "name": "Port-Harcourt Tech Center",
+        "address": "456 Technology Blvd, Port-Harcourt",
+        "phone": "(555) 234-5678",
+        "website": "http://www.phtech.com",
+        "image": "ph-tech.jpg",
+        "membershipLevel": 2,
+        "description": "Providing innovative tech solutions for businesses."
+    },
+    {
+        "name": "Fresh Mart",
+        "address": "789 Grocery Ln, Port-Harcourt",
+        "phone": "(555) 345-6789",
+        "website": "http://www.freshmart.com",
+        "image": "fresh-mart.jpg",
+        "membershipLevel": 1,
+        "description": "Your local grocery store with fresh produce daily."
+    },
+    {
+        "name": "Healthy Life Fitness",
+        "address": "101 Fitness Ave, Port-Harcourt",
+        "phone": "(555) 456-7890",
+        "website": "http://www.healthylifefitness.com",
+        "image": "healthy-life.jpg",
+        "membershipLevel": 3,
+        "description": "State-of-the-art fitness center promoting healthy living."
+    },
+    {
+        "name": "Green Earth Landscaping",
+        "address": "202 Garden Rd, Port-Harcourt",
+        "phone": "(555) 567-8901",
+        "website": "http://www.greenearthlandscaping.com",
+        "image": "green-earth.jpg",
+        "membershipLevel": 2,
+        "description": "Professional landscaping services for your home and business."
+    },
+    {
+        "name": "Port-Harcourt Financial Advisors",
+        "address": "303 Finance St, Port-Harcourt",
+        "phone": "(555) 678-9012",
+        "website": "http://www.timbuktufinancial.com",
+        "image": "Port-Harcourt-financial.jpg",
+        "membershipLevel": 1,
+        "description": "Expert financial advice for individuals and businesses."
+    },
+    {
+        "name": "Sunny Day Café",
+        "address": "404 Coffee Blvd,Port-Harcourt",
+        "phone": "(555) 789-0123",
+        "website": "http://www.sunnydaycafe.com",
+        "image": "sunny-day-cafe.jpg",
+        "membershipLevel": 3,
+        "description": "A cozy café serving the best coffee and pastries in town."
+    }
+]
