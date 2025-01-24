@@ -1,5 +1,3 @@
-/*https://coolors.co/palette/333333-28b0bf-0044cc-ffa500-f4f4f4*/
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
 /* Basic Reset */
 * {
     margin: 0;
@@ -17,9 +15,11 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #0044cc; 
-    color: #fff;
-    padding: 1rem;
+    background-color: #0044cc;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -92,11 +92,130 @@ main {
     flex: 1 1 100%;
 }
 
+/* Hero Section */
+.hero {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+}
+
+.hero img {
+    width: 100%; /* Expand the width to cover the entire hero section */
+    height: 100%; /* Ensure the height covers the hero section */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.hero-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero .cta {
+    display: inline-block;
+    background-color: #ffa500; /* Secondary color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.hero .cta:hover {
+    background-color: #e69500; /* Darker shade of secondary color */
+}
+
+/* Events Section */
+.events .event {
+    background-color: #e0e0e0; /* Light gray background for the events */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Weather Section */
+.weather {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0; /* Light gray background for the weather section */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.weather-info {
+    width: 48%; /* Make the current weather and forecast equal width */
+}
+
+/* Spotlight Section Styling */
+.spotlights {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; 
+    flex-wrap: wrap;
+}
+
+.spotlight {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2rem;
+    flex: 1; /* Allows flexible resizing */
+    max-width: 30%; /* Controls the maximum width of each card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.spotlight img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.spotlight h3 {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight p {
+    margin-bottom: 0.5rem;
+}
+
+.spotlight a {
+    color: #0044cc; /* Link color */
+    text-decoration: none;
+}
+
+.spotlight a:hover {
+    text-decoration: underline;
+}
+
+
+
 /* Footer Styling */
 footer {
-    background: #0044cc; 
+    background: #0044cc;
     color: #fff;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
 }

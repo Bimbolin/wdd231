@@ -1,39 +1,39 @@
 [
     {
-        "name": "ABC Boutique",
-        "address": "123 Market St, Port-Harcourt",
-        "phone": "(555) 123-4567",
-        "website": "http://www.abcboutique.com",
-        "image": "abc-boutique.jpg",
-        "membershipLevel": 3,
-        "description": "A trendy boutique offering the latest in fashion."
+    "name": "MTN Nigeria Port-Harcourt.",
+    "address": "Plot 19 JC Street, Off Peter Odili Road, Trans Amadi Industrial Layout, LGA, 500272, Port Harcourt, Nigeria",
+    "phone": "(555) 123-4567",
+    "website": "https://www.mtn.ng/",
+    "image": "chamber/images/instagram.png",
+    "membershipLevel": 3,
+    "description": "Information, Telecommunication."
     },
     {
-        "name": "Port-Harcourt Tech Center",
-        "address": "456 Technology Blvd, Port-Harcourt",
-        "phone": "(555) 234-5678",
-        "website": "http://www.phtech.com",
-        "image": "ph-tech.jpg",
-        "membershipLevel": 2,
-        "description": "Providing innovative tech solutions for businesses."
+    "name": "Deans Oil and Gas Services Company",
+    "address": "12A Port Harcourt - Aba Expy, New GRA 500101, Port Harcourt, Nigeria",
+    "phone": "(555) 234-5678",
+    "website": "http://www.deansoilgas.com",
+    "image": "deans-oil-gas.jpg",
+    "membershipLevel": 2,
+    "description": "Provides oil and gas spill cleaning and environmental remediation."
     },
     {
-        "name": "Fresh Mart",
-        "address": "789 Grocery Ln, Port-Harcourt",
-        "phone": "(555) 345-6789",
-        "website": "http://www.freshmart.com",
-        "image": "fresh-mart.jpg",
-        "membershipLevel": 1,
-        "description": "Your local grocery store with fresh produce daily."
+    "name": "Tola Contractors Nigeria Limited",
+    "address": "Rumuibekwe Housing Estate, 1C Ahoada St, Obia 500102, Port Harcourt, Rivers, Nigeria",
+    "phone": "(555) 345-6789",
+    "website": "http://www.tolacontractors.com",
+    "image": "tola-contractors.jpg",
+    "membershipLevel": 3,
+    "description": "Specializes in construction and engineering services."
     },
     {
-        "name": "Healthy Life Fitness",
-        "address": "101 Fitness Ave, Port-Harcourt",
-        "phone": "(555) 456-7890",
-        "website": "http://www.healthylifefitness.com",
-        "image": "healthy-life.jpg",
-        "membershipLevel": 3,
-        "description": "State-of-the-art fitness center promoting healthy living."
+    "name": "Weam and Company Limited",
+    "address": "Plot 42C, Road 22, Federal Housing Estate Agip, Rumueme, Port Harcourt, Nigeria",
+    "phone": "(555) 456-7890",
+    "website": "http://www.weamandcompany.com",
+    "image": "weam-company.jpg",
+    "membershipLevel": 2,
+    "description": "Provides engineering design and specialized services to the oil and gas sector."
     },
     {
         "name": "Green Earth Landscaping",

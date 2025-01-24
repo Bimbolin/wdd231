@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Port-Harcourt Chamber of Commerce - Directory</title>
-    <meta name="description" content="Directory of local businesses and organizations that belong to the Port-Harcourt Chamber of Commerce.">
+    <meta name="description" content="Home page of the Port-Harcourt Chamber of Commerce.">
     <meta name="author" content="Bimbola Osho-lowu">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/directory.css">
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/index.js" defer></script>
     <script src="scripts/directory.js" defer></script>
 
     <!-- Favicon -->
@@ -25,7 +26,7 @@
 </head>
 <body>
     <header>
-        <h1>Directory of Local Businesses</h1>
+        <h1>Port-Harcourt Chamber of Commerce</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -36,23 +37,38 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Local Business Directory</h2>
-            <!-- Toggle for view selection -->
-            <div class="view-toggle">
-                <button id="gridView">Grid View</button>
-                <button id="listView">List View</button>
-                     
+        <section class="hero">
+            <img src="images/hero.webp" alt="Welcome to Port-Harcourt Chamber of Commerce">
+            <div class="hero-text">
+            <h2>Welcome Port-Harcourt Chamber of Commerce</h2>
+            <p>Your gateway to business growth and community engagement.</p>
+                <a href="join.html" class="cta">Join the Chamber of Commerce</a>
             </div>
-            <!-- Directory content -->
-            <div id="directoryContent" class="grid-view">
-                <!-- Example member card -->
-                <div class="member-card">
-                    <h3>Business Name</h3>
-                    <p>Address, City, State, ZIP</p>
-                    <p>Phone: (123) 456-7890</p>
-                </div>
-                <!-- More member cards go here -->
+        </section>
+        <section class="events">
+            <h2>Current Events</h2>
+            <div class="event">
+                <h3>Business Networking Luncheon</h3>
+                <p>Date: April 20, 2025</p>
+                <p>Join us for a networking luncheon to connect with local business leaders.</p>
+            </div>
+            <!-- Add more events as needed -->
+        </section>
+        <section class="weather">
+            <p>The current temperature in Port Harcourt, Nigeria is <span id="current-temp"></span></p>
+        <figure>
+            <img id="weather-icon" src="weather" alt="cloud icon">
+            <figcaption></figcaption>
+        </figure>
+        <h2>3-Day Temperature Forecast</h2>
+        <ul id="forecast">
+            <!-- Forecast will be dynamically populated here -->
+        </ul>
+        </section>
+        <section id="spotlights">
+            <h2>Company Spotlights</h2>
+            <div id="spotlightContent" class="grid-view">
+                <!-- Spotlight content will be dynamically populated here -->
             </div>
         </section>
     </main>
