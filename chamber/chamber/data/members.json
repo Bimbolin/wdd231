@@ -1,0 +1,65 @@
+[
+    {
+    "name": "MTN Nigeria Port-Harcourt.",
+    "address": "Plot 19 JC Street, Off Peter Odili Road, Trans Amadi Industrial Layout, LGA, 500272, Port Harcourt, Nigeria",
+    "phone": "(555) 123-4567",
+    "website": "https://www.mtn.ng/",
+    "image": "chamber/images/instagram.png",
+    "membershipLevel": 3,
+    "description": "Information, Telecommunication."
+    },
+    {
+    "name": "Deans Oil and Gas Services Company",
+    "address": "12A Port Harcourt - Aba Expy, New GRA 500101, Port Harcourt, Nigeria",
+    "phone": "(555) 234-5678",
+    "website": "http://www.deansoilgas.com",
+    "image": "deans-oil-gas.jpg",
+    "membershipLevel": 2,
+    "description": "Provides oil and gas spill cleaning and environmental remediation."
+    },
+    {
+    "name": "Tola Contractors Nigeria Limited",
+    "address": "Rumuibekwe Housing Estate, 1C Ahoada St, Obia 500102, Port Harcourt, Rivers, Nigeria",
+    "phone": "(555) 345-6789",
+    "website": "http://www.tolacontractors.com",
+    "image": "tola-contractors.jpg",
+    "membershipLevel": 3,
+    "description": "Specializes in construction and engineering services."
+    },
+    {
+    "name": "Weam and Company Limited",
+    "address": "Plot 42C, Road 22, Federal Housing Estate Agip, Rumueme, Port Harcourt, Nigeria",
+    "phone": "(555) 456-7890",
+    "website": "http://www.weamandcompany.com",
+    "image": "weam-company.jpg",
+    "membershipLevel": 2,
+    "description": "Provides engineering design and specialized services to the oil and gas sector."
+    },
+    {
+        "name": "Green Earth Landscaping",
+        "address": "202 Garden Rd, Port-Harcourt",
+        "phone": "(555) 567-8901",
+        "website": "http://www.greenearthlandscaping.com",
+        "image": "green-earth.jpg",
+        "membershipLevel": 2,
+        "description": "Professional landscaping services for your home and business."
+    },
+    {
+        "name": "Port-Harcourt Financial Advisors",
+        "address": "303 Finance St, Port-Harcourt",
+        "phone": "(555) 678-9012",
+        "website": "http://www.timbuktufinancial.com",
+        "image": "Port-Harcourt-financial.jpg",
+        "membershipLevel": 1,
+        "description": "Expert financial advice for individuals and businesses."
+    },
+    {
+        "name": "Sunny Day Café",
+        "address": "404 Coffee Blvd,Port-Harcourt",
+        "phone": "(555) 789-0123",
+        "website": "http://www.sunnydaycafe.com",
+        "image": "sunny-day-cafe.jpg",
+        "membershipLevel": 3,
+        "description": "A cozy café serving the best coffee and pastries in town."
+    }
+]

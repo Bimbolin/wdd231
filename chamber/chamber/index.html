@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-Harcourt Chamber of Commerce - Directory</title>
+    <meta name="description" content="Home page of the Port-Harcourt Chamber of Commerce.">
+    <meta name="author" content="Bimbola Osho-lowu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+
+    <!-- Facebook Open Graph meta tags -->
+    <meta property="og:title" content="Port-Harcourt Chamber of Commerce - Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/favicon.ico.png">
+    <meta property="og:url" content="https://bimbolin.github.io/wdd231/chamber/directory.html">
+</head>
+<body>
+    <header>
+        <h1>Port-Harcourt Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Welcome to Port-Harcourt Chamber of Commerce">
+            <div class="hero-text">
+            <h2>Welcome Port-Harcourt Chamber of Commerce</h2>
+            <p>Your gateway to business growth and community engagement.</p>
+                <a href="" class="cta">Join the Chamber of Commerce</a>
+            </div>
+        </section>
+        <section class="events">
+            <h2>Current Events</h2>
+            <div class="event">
+                <h3>Business Networking Luncheon</h3>
+                <p>Date: April 20, 2025</p>
+                <p>Join us for a networking luncheon to connect with local business leaders.</p>
+            </div>
+            <!-- Add more events as needed -->
+        </section>
+        <section class="weather">
+            <p>The current temperature in Port Harcourt, Nigeria is <span id="current-temp"></span></p>
+        <figure>
+            <img id="weather-icon" src="" alt="cloud icon for different cloud view">
+            <figcaption></figcaption>
+        </figure>
+        <h2>3-Day Temperature Forecast</h2>
+        <ul id="forecast">
+            <!-- Forecast will be dynamically populated here -->
+        </ul>
+        </section>
+        <section id="spotlights">
+            <h2>Company Spotlights</h2>
+            <div id="spotlightContent" class="grid-view">
+                <!-- Spotlight content will be dynamically populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Port-Harcourt Chamber of Commerce. All rights reserved.</p>
+        <p id="lastModified"></p>
+        <p>Bimbola osholowu WDD 231 </p>
+        <div class="social">
+            <a href="https://facebook.com" target=" _blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target=" _blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target=" _blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

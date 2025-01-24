@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-Harcourt Chamber of Commerce - Directory</title>
+    <meta name="description" content="Directory of local businesses and organizations that belong to the Port-Harcourt Chamber of Commerce.">
+    <meta name="author" content="Bimbola Osho-lowu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+
+    <!-- Facebook Open Graph meta tags -->
+    <meta property="og:title" content="Port-Harcourt Chamber of Commerce - Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <header>
+        <h1>Directory of Local Businesses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Local Business Directory</h2>
+            <!-- Toggle for view selection -->
+            <div class="view-toggle">
+                <button id="gridView">Grid View</button>
+                <button id="listView">List View</button>
+                     
+            </div>
+            <!-- Directory content -->
+            <div id="directoryContent" class="grid-view">
+                <!-- Example member card -->
+                <div class="member-card">
+                    <h3>Business Name</h3>
+                    <p>Address, City, State, ZIP</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <!-- More member cards go here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Port-Harcourt Chamber of Commerce. All rights reserved.</p>
+        <p id="lastModified"></p>
+        <p>Bimbola osholowu WDD 231 </p>
+        <div class="social">
+            <a href="https://facebook.com" target=" _blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target=" _blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target=" _blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
