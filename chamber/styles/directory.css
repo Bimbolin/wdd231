@@ -10,7 +10,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 /* Header Styling */
@@ -24,6 +23,7 @@ header {
 
 header h1 {
     text-align: center;
+    color: #fff;
 }
 
 nav ul {
@@ -66,7 +66,7 @@ main {
 }
 
 .view-toggle button:hover {
-    background: #333333; 
+    background-color: rgba(0, 0, 0, 0.5);  
 }
 
 /* Member Card Styling */
