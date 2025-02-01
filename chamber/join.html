@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port-Harcourt Chamber of Commerce - Directory</title>
+    <meta name="description" content="Directory of local businesses and organizations that belong to the Port-Harcourt Chamber of Commerce.">
+    <meta name="author" content="Bimbola Osho-lowu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+
+    <!-- Facebook Open Graph meta tags -->
+    <meta property="og:title" content="Port-Harcourt Chamber of Commerce - Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <header>
+        <h1>Directory of Local Businesses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="thankyou.html" method="get">
+            <label>
+                First Name:
+                <input type="text" name="first-name" title="First Name" autocomplete="given-name" required>
+            </label>
+            <label>
+                Last Name:
+                <input type="text" name="last-name" title="Last Name" autocomplete="family-name" required>
+            </label>
+            <label>
+                Organizational Title:
+                <input type="text" name="organization-title" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}" required>
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" title="Email" autocomplete="email" placeholder="example@example.com" required>
+            </label>
+            <label>
+                Mobile Phone:
+                <input type="tel" name="mobile-phone" title="Mobile Phone" autocomplete="tel" required>
+            </label>
+            <label>
+                Organization Name:
+                <input type="text" name="organization" title="Organization Name" autocomplete="organization" required>
+            </label>
+            <label>
+                Membership Level:
+                <select name="membership-level" title="Membership Level" required>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>
+                Organization Description:
+                <textarea name="description" title="Organization Description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Submit">
+        </form>
+        
+        <div id="membership-cards">
+            <div class="card" id="np-card">
+                <h3>NP Membership</h3>
+                <a href="#" data-modal="np-modal">More Info</a>
+            </div>
+            <div class="card" id="bronze-card">
+                <h3>Bronze Membership</h3>
+                <a href="#" data-modal="bronze-modal">More Info</a>
+            </div>
+            <div class="card" id="silver-card">
+                <h3>Silver Membership</h3>
+                <a href="#" data-modal="silver-modal">More Info</a>
+            </div>
+            <div class="card" id="gold-card">
+                <h3>Gold Membership</h3>
+                <a href="#" data-modal="gold-modal">More Info</a>
+            </div>
+        </div>
+        
+        <dialog id="np-modal">
+            <button id="close-np-modal">❌</button>
+            <h2>NP Membership Benefits</h2>
+            <p>Details about NP Membership...</p>
+        </dialog>
+        <dialog id="bronze-modal">
+            <button id="close-bronze-modal">❌</button>
+            <h2>Bronze Membership Benefits</h2>
+            <p>Details about Bronze Membership...</p>
+        </dialog>
+        <dialog id="silver-modal">
+            <button id="close-silver-modal">❌</button>
+            <h2>Silver Membership Benefits</h2>
+            <p>Details about Silver Membership...</p>
+        </dialog>
+        <dialog id="gold-modal">
+            <button id="close-gold-modal">❌</button>
+            <h2>Gold Membership Benefits</h2>
+            <p>Details about Gold Membership...</p>
+        </dialog>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Port-Harcourt Chamber of Commerce. All rights reserved.</p>
+        <p id="lastModified"></p>
+        <p>Bimbola osholowu WDD 231 </p>
+        <div class="social">
+            <a href="https://facebook.com" target=" _blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target=" _blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target=" _blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

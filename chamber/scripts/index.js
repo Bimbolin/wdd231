@@ -89,3 +89,35 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchWeather();
     fetchSpotlights();
 });
+   
+
+document.getElementById("timestamp").value = new Date().toISOString();
+
+document.querySelectorAll('[data-modal]').forEach(trigger => {
+    trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        const modalId = e.target.getAttribute('data-modal');
+        document.getElementById(modalId).showModal();
+    });
+});
+
+document.querySelectorAll('dialog button').forEach(button => {
+    button.addEventListener('click', function() {
+        this.parentElement.close();
+    });
+});
+
+
+ // Function to display information in the HTML
+       
+ const urlParams = new URLSearchParams(window.location.search);
+ document.getElementById("first-name").innerText = urlParams.get("first-name");
+ document.getElementById("last-name").innerText = urlParams.get("last-name");
+ document.getElementById("email").innerText = urlParams.get("email");
+ document.getElementById("mobile-phone").innerText = urlParams.get("mobile-phone");
+ document.getElementById("organization").innerText = urlParams.get("organization");
+ document.getElementById("timestamp").innerText = urlParams.get("timestamp");
+
+        
+
+           
