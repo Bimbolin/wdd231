@@ -1,0 +1,78 @@
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Cards Section */
+.cards {
+    display: grid;
+    gap: 1rem;
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+button {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+/* Responsive Grid Layout */
+
+/* Small Screens (320px to 640px) */
+.cards {
+    grid-template-columns: 1fr;
+}
+
+/* Medium Screens (641px to 1024px) */
+@media (min-width: 641px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Screens (1025px and above) */
+@media (min-width: 1025px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

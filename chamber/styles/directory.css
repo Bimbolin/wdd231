@@ -116,7 +116,7 @@ main {
 .hero-text {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff;
+    color: #e4dede;
     bottom: 20px;
     left: 20px;
     padding: 10px 20px;
@@ -385,5 +385,69 @@ footer .social img {
       margin-bottom: 0;
     }
   
-}  
+} 
+
+
+/* Discover*/
+.cards-grid {
+  display: grid;
+  grid-template-areas: 
+      'card1 card2'
+      'card3 card4'
+      'card5 card6'
+      'card7 card8';
+  gap: 20px;
+}
+
+.cards-grid .card {
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: var(--accent2-color);
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 640px) {
+  .cards-grid {
+      grid-template-areas: 
+          'card1'
+          'card2'
+          'card3'
+          'card4'
+          'card5'
+          'card6'
+          'card7'
+          'card8';
+  }
+}
+
+/* Responsive Design for Medium Screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .cards-grid {
+      grid-template-areas: 
+          'card1 card2'
+          'card3 card4'
+          'card5 card6'
+          'card7 card8';
+  }
+}
+
+/* Responsive Design for Large Screens */
+@media (min-width: 1025px) {
+  .cards-grid {
+      grid-template-areas: 
+          'card1 card2 card3 card4'
+          'card5 card6 card7 card8';
+  }
+}
+
+/* Hover Effects */
+.cards-grid .card img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
   
