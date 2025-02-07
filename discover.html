@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Local Businesses Chamber of Commerce</title>
+    <meta name="description" content="Discover the top attractions in our area.">
+    <meta name="author" content="Bimbola Osho-lowu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/discover.js" type="module"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
+
+    <!-- Facebook Open Graph meta tags -->
+    <meta property="og:title" content="Port-Harcourt Chamber of Commerce - Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/favicon.ico.png">
+    <meta property="og:url" content="https://bimbolin.github.io/wdd231/chamber/discover.html">
+</head>
+<body>
+    <header>
+        <h1>Discover Local Businesses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Discover Port-Harcourt</h1>
+        <section class="cards">
+            <div class="card" id="card1">
+                <h2>Port Harcourt Pleasure Park</h2>
+                <figure>
+                    <img src="images/pleasure_park.webp" alt="Image of pleasure park">
+                    <figcaption>Gate Fee:NGN2000</figcaption>
+                </figure>
+                <address>Address: Kalagbor Street, Port Harcourt</address>
+                <p>This expansive park covers over 40 acres of lush green space and offers a range of recreational activities, including amusement rides, a swimming pool, food court, picnic areas, and sporting facilities. It's a perfect place for a fun day out with family and friends</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card2">
+                <h2>Isaac Boro Garden Park</h2>
+                <figure>
+                    <img src="images/isaac_boro_garden_park.webp" alt="Image of isaac boro park">
+                    <figcaption>Open to the public</figcaption>
+                </figure>
+                <address>Address: Old GRA, Port Harcourt</address>
+                <p>A popular recreational area for picnics, birthday celebrations, and group gatherings</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card3">
+                <h2>Elephant Park</h2>
+                <figure>
+                    <img src="images/elephant_park.webp" alt="Image of elephant park">
+                    <figcaption>Open to the public</figcaption>
+                </figure>
+                <address>Address: Elekahia, Port Harcourt</address>
+                <p>A serene park with beautiful landscapes and a large statue of an elephant.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card4">
+                <h2>Rivers State Museum</h2>
+                <figure>
+                    <img src="images/rivers_state_museum_.webp" alt="Image of river state museum">
+                    <figcaption>A place of act</figcaption>
+                </figure>
+                <address>Address: 1st Artillery, Port Harcourt</address>
+                <p>A museum showcasing the history, culture, and heritage of Rivers State.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card5">
+                <h2>Peterside Beach</h2>
+                <figure>
+                    <img src="images/peterside_beach.webp" alt="Image of peterside beach">
+                    <figcaption>Beach for all</figcaption>
+                </figure>
+                <address>Address: Peterside, Port Harcourt</address>
+                <p>A beautiful beach ideal for relaxation, swimming, and water sports.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card6">
+                <h2>Cultural Heritage Centre</h2>
+                <figure>
+                    <img src="images/cultural_heritage_centre.webp" alt="Image of cultural heritage centre">
+                    <figcaption>Learn you culture</figcaption>
+                </figure>
+                <address>Address: Rumuodomaya, Port Harcourt</address>
+                <p>A center dedicated to preserving and promoting the cultural heritage of the region.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card7">
+                <h2>Rivers State Library</h2>
+                <figure>
+                    <img src="images/library.webp" alt="Image of library">
+                    <figcaption>A place to gain knowledge</figcaption>
+                </figure>
+                <address>Address: 1st Artillery, Port Harcourt</address>
+                <p>A well-stocked library offering a wide range of books and resources for all ages.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="card" id="card8">
+                <h2>Freedom Park</h2>
+                <figure>
+                    <img src="images/pleasure_park.webp" alt="Image of freedom park">
+                    <figcaption>Park for all</figcaption>
+                </figure>
+                <address>Address: Diobu, Port Harcourt</address>
+                <p>A park offering green spaces, walking paths, and recreational facilities for the community.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <div id="visitMessage"></div>
+        </aside>
+    
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> Port-Harcourt Chamber of Commerce. All rights reserved.</p>
+        <p id="lastModified"></p>
+        <p>Bimbola osholowu WDD 231 </p>
+        <div class="social">
+            <a href="https://facebook.com" target=" _blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target=" _blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target=" _blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
