@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/main.js" defer></script>
 
 <!-- Favicon -->
 <link rel="icon" href="images/favicon.ico.png" type="image/x-icon">
@@ -33,32 +32,30 @@
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <section class="hero">
-            <img src="images/hero.webp" alt="Welcome to BB's Enterprise">
-            <div class="hero-text">
-            <h2>Welcome to BB's Enterprise! We specialize in custom cakes, pastries, soups, and event planning services.</h2>
-            <p>Your Premier Catering Experience</p>
-                <a href="service.html" class="cta">Our Service</a>
-            </div>
+    <main class="contact">
+        <section class="intro">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below to get in touch with us or book an appointment.</p>
         </section>
-        <h2>What We Do</h2>
-        <section class="gallery">
-            <h2>Gallery</h2>
-            <img src="images/bugger.webp" alt="Image of a bugger">
-            <img src="images/cake.webp" alt="Image of a cake">
-            <img src="images/event.webp" alt="Image of a event">
-            <img src="images/buffet.webp" alt="Image of a buffet">
-        </section>
-        
-        <section id="testimonials">
-            <h2>What Our Clients Say</h2>
-            <blockquote>"BB's Enterprise made our event unforgettable!" - Client A</blockquote>
-            <blockquote>"Delicious food and exceptional service!" - Client B</blockquote>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Reach Out</button>
+            </form>
         </section>
     </main>
-    
     <footer>
         <p>©<span id="currentyear"></span> BB's Enterprise. All rights reserved.</p>
         <p id="lastModified"></p>
@@ -75,5 +72,7 @@
             </a>
         </div>
     </footer>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 </body>
 </html>
